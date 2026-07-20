@@ -1,0 +1,136 @@
+body{
+    font-family:'Poppins', sans-serif;
+    background: linear-gradient(rgba(255,245,248,0.85), rgba(255,245,248,0.85)),
+                url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/* Navbar */
+
+.navbar{
+    background:rgba(250, 190, 219, 0.85);
+    backdrop-filter:blur(15px);
+}
+
+.profile{
+    box-shadow:0 20px 40px rgb(209, 151, 180);
+}
+
+
+.navbar-brand{
+    font-family:'Playfair Display', serif;
+    font-size:32px;
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+.nav-link{
+    font-family:'Poppins', sans-serif;
+    font-size:16px;
+    font-weight:500;
+}
+
+.nav-link:hover{
+    color:#ffe0ef !important;
+}
+
+/* Hero */
+
+.hero h1{
+    font-size:52px;
+    line-height:1.3;
+}
+
+.hero p{
+    font-size:18px;
+    color:#666;
+}
+
+.profile{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius:50%;
+    border:8px solid #ff4fa3;
+    box-shadow:0 0 20px rgba(255,105,180,.4);
+}
+
+/* Judul */
+
+h1,h2{
+    font-family:'Playfair Display', serif;
+    color:#d63384;
+    font-weight:700;
+}
+
+/* Tombol */
+
+.btn-pink{
+    font-family:'Poppins', sans-serif;
+    font-weight:600;
+    letter-spacing:1px;
+}
+
+.btn-pink:hover{
+    background:#e83e8c;
+    color:white;
+}
+
+/* Card */
+
+.card-title{
+    font-family:'Playfair Display', serif;
+    font-size:24px;
+    color:#d63384;
+}
+
+.card p{
+    font-family:'Poppins', sans-serif;
+    font-size:15px;
+    color:#666;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    height:220px;
+    object-fit:cover;
+}
+
+/* Progress */
+
+.progress{
+    height:25px;
+    margin-bottom:15px;
+    background:#ffd6ea;
+}
+
+.progress-bar{
+    background:#ff4fa3 !important;
+    font-weight:bold;
+}
+
+/* Contact */
+
+#contact{
+    background:#ffe6f2;
+}
+
+/* Footer */
+
+footer{
+    background:#ff4fa3;
+    color:white;
+    padding:20px;
+    margin-top:50px;
+}
+
+.card img{
+    height:220px;
+    object-fit:cover;
+    border-radius:15px 15px 0 0;
+}
